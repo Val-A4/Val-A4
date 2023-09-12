@@ -1,8 +1,14 @@
-body{
-    text-align:center;
+@font-face {
+    font-family: "Chomsky";
+    src: url(Assets/Fonts/chomsky/Chomsky.otf);
 }
-h1{
+h1,hr,p{
     color: #DAA520;
+    font: 2rem "Chomsky"
+}
+body{
+    background-color: black;
+    text-align:center;
 }
 li{
     list-style-type: square;
