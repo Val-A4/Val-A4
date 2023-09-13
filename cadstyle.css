@@ -1,14 +1,42 @@
-/* @font-face {
+@font-face {
     font-family: "Novamono";
     src: url(Assets/Fonts/novamono/novamono.ttf);
-} */
+}
+@font-face {
+    font-family: "Chomsky";
+    src: url(Assets/Fonts/chomsky/Chomsky.otf);
+}
 body{
     text-align:center;
-    /* font: 2rem "Novamono"; */
+    font: 2rem "Novamono";
+    line-height: 1;
+    background-color: gainsboro;
 }
 h1{
     color: #960018;
 }
 li{
     list-style-type: square;
+}
+.box {
+    margin: 30px;
+    width: calc(100vw / 3);
+    height: calc(100vw / 6);
+}
+#box1{
+    background-color: #960018;
+    transform: skew(-30deg);
+    font: 2rem "Novamono";
+}
+#box1 > div{
+    transform: skew(30deg);
+}
+#box2{
+    background-color: black;
+    transform: skew(30deg);
+    font: 2rem "Chomsky";
+    color: #DAA520;
+}
+#box2 > div{
+    transform: skew(-30deg);
 }
