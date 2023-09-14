@@ -10,14 +10,25 @@ body{
     text-align:center;
     font: 2rem "Novamono";
     line-height: 1;
-    background-color: gainsboro;
+    /* background-color: gainsboro; */
+    background-image: url(Assets/Temp\ Blueprint\ BG.png);
     /* width: 100vw; */
+    color: black;
+}
+a:link{
+    color: gainsboro;
+}
+hr{
+    color: #1d2739;
 }
 h1{
-    color: #960018;
+    /* color: #960018; */
+    color: gainsboro;
+    background-color: #1d2739;
 }
 li{
     list-style-type: square;
+    color: black;
 }
 .box {
     border: thick double;
@@ -26,9 +37,11 @@ li{
     height: calc(100vw / 6);
 }
 #box1{
-    background-color: #960018;
+    /* background-color: #960018; */
+    background-color: #1d2739;
     transform: skew(-30deg);
     font: 3rem "Novamono";
+    color: gainsboro;
     position: relative; left: -20vw;
     /* clip-path: polygon(0% 0%,100% 0%,66% 100%,0% 100%); */
     /* mask-image: url(Assets/The\ HIGHLY\ VISIBLE\ Boat\ Mobile.png);
