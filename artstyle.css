@@ -13,8 +13,20 @@ body{
 }
 img{
     border: 5px solid #DAA520;
-    width:80%;
+    /* width: 80%; */
+    height: 90vh;
 }
+#seal{
+    border: none;
+    width: 20vw;
+    height:auto;
+}
+/* #tall{
+    height: 100vh;
+}
+#short{
+    width: 80%;
+} */
 li{
     list-style-type: square;
 }

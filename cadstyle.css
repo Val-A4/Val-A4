@@ -11,6 +11,7 @@ body{
     font: 2rem "Novamono";
     line-height: 1;
     background-color: gainsboro;
+    /* width: 100vw; */
 }
 h1{
     color: #960018;
@@ -19,6 +20,7 @@ li{
     list-style-type: square;
 }
 .box {
+    border: thick double;
     margin: 30px;
     width: calc(100vw / 3);
     height: calc(100vw / 6);
@@ -26,16 +28,22 @@ li{
 #box1{
     background-color: #960018;
     transform: skew(-30deg);
-    font: 2rem "Novamono";
+    font: 3rem "Novamono";
+    position: relative; left: -20vw;
+    /* clip-path: polygon(0% 0%,100% 0%,66% 100%,0% 100%); */
+    /* mask-image: url(Assets/The\ HIGHLY\ VISIBLE\ Boat\ Mobile.png);
+    mask-size: calc(1.73 * 100vw / 3) calc(100vw / 6); */
 }
 #box1 > div{
     transform: skew(30deg);
+    /* position: relative; left: -40px; */
 }
 #box2{
     background-color: black;
     transform: skew(30deg);
-    font: 2rem "Chomsky";
+    font: 2.2rem "Chomsky";
     color: #DAA520;
+    position: relative; right: -20vw;
 }
 #box2 > div{
     transform: skew(-30deg);
