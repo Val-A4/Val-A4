@@ -9,10 +9,15 @@
         body{
             overflow-x: hidden;
         }
+        .buttons{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: inherit;
+        }
     </style>
 </head>
 <body>
-    <div id="container">
+    <div class="container">
         <div>
             <h1>Welcome to Val's Portfolio</h1>
             <p>From this page you can reach collections of my old and active engineering and art projects.  Please enjoy your stay!</p>
@@ -20,9 +25,14 @@
             <a href="Assets/Ackerman Resume 2023-Design Engineer - Nonspecific (PDF - Online).pdf" target = "_blank"> Click here to open a copy of my resume in new tab.</a>
             <hr>
         </div>
-        <div>
-            <a class="boxlk" href="CAD Portfolio.html"><button class="box" id="box1"><div>CAD Portfolio</div></button></a>
-            <a class="boxlk" href="ART Portfolio.html"><button class="box" id="box2"><div>Art Portfolio</div></button></a>
+        <div class="buttons">
+            <div>
+                <a class="boxlk" href="CAD Portfolio.html"><button class="box" id="box1"><div>CAD Portfolio</div></button></a>
+            </div>
+            <div></div>
+            <div>
+                <a class="boxlk" href="ART Portfolio.html"><button class="box" id="box2"><div>Art Portfolio</div></button></a>
+            </div>
         </div>
     </div>
 </body>

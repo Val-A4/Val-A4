@@ -8,7 +8,8 @@
 }
 .container{
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
 }
 body{
     text-align:center;
@@ -57,7 +58,7 @@ li{
     transform: skew(-30deg);
     font: 3rem "Novamono";
     color: gainsboro;
-    position: relative; left: -20vw;
+    /* position: relative; left: -120px; */
     /* clip-path: polygon(0% 0%,100% 0%,66% 100%,0% 100%); */
     /* mask-image: url(Assets/The\ HIGHLY\ VISIBLE\ Boat\ Mobile.png);
     mask-size: calc(1.73 * 100vw / 3) calc(100vw / 6); */
@@ -71,7 +72,7 @@ li{
     transform: skew(30deg);
     font: 2.2rem "Chomsky";
     color: #DAA520;
-    position: relative; right: -20vw;
+    /* position: relative; right: -8vw; */
 }
 #box2 > div{
     transform: skew(-30deg);
