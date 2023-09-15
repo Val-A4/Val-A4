@@ -9,7 +9,10 @@
 .container{
     display: grid;
     grid-template-rows: 1fr 1fr;
-    gap: 10px;
+    width: 100vw;
+    align-content: center;
+    margin: 0;
+    overflow-x: hidden;
 }
 body{
     text-align:center;
@@ -17,8 +20,8 @@ body{
     line-height: 1;
     /* background-color: gainsboro; */
     background-image: url(Assets/Temp\ Blueprint\ BG.png);
-    /* width: 100vw; */
     color: black;
+    margin: 0;
 }
 a:link{
     color: gainsboro;
@@ -47,7 +50,7 @@ li{
 }
 .box {
     border: thick double;
-    margin: 30px;
+    margin-top: 30px;
     width: calc(100vw / 3);
     height: calc(100vw / 6);
 }
@@ -56,24 +59,20 @@ li{
     /* background-color: #960018; */
     background-color: #1d2739;
     transform: skew(-30deg);
-    font: 3rem "Novamono";
+    font: 3.5vw "Novamono";
     color: gainsboro;
-    /* position: relative; left: -120px; */
-    /* clip-path: polygon(0% 0%,100% 0%,66% 100%,0% 100%); */
-    /* mask-image: url(Assets/The\ HIGHLY\ VISIBLE\ Boat\ Mobile.png);
-    mask-size: calc(1.73 * 100vw / 3) calc(100vw / 6); */
 }
 #box1 > div{
     transform: skew(30deg);
-    /* position: relative; left: -40px; */
+    display: inline-block;
 }
 #box2{
     background-color: black;
     transform: skew(30deg);
-    font: 2.2rem "Chomsky";
+    font: 3vw "Chomsky";
     color: #DAA520;
-    /* position: relative; right: -8vw; */
 }
 #box2 > div{
     transform: skew(-30deg);
+    display: inline-block;
 }
