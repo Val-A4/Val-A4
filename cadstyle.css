@@ -6,6 +6,10 @@
     font-family: "Chomsky";
     src: url(Assets/Fonts/chomsky/Chomsky.otf);
 }
+.container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
 body{
     text-align:center;
     font: 2rem "Novamono";
