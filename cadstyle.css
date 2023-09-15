@@ -18,6 +18,16 @@ body{
 a:link{
     color: gainsboro;
 }
+a:hover{
+    background-color: #1d2739;
+}
+a:visited{
+    color: #1d2739;
+    background-color: gainsboro;
+}
+a.boxlk:hover, a.boxlk:visited{
+    background-color: transparent;
+}
 hr{
     color: #1d2739;
 }
@@ -36,6 +46,7 @@ li{
     width: calc(100vw / 3);
     height: calc(100vw / 6);
 }
+/*Buttons are made by skewing rectangles so that the trim is retained on the inner edges, clip path keeps trim on outside but not interior.*/
 #box1{
     /* background-color: #960018; */
     background-color: #1d2739;
