@@ -2,6 +2,12 @@
     font-family: "Chomsky";
     src: url(Assets/Fonts/chomsky/Chomsky.otf);
 }
+.container{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 60vw;
+    margin: 20px;
+}
 h1,hr,p{
     color: #DAA520;
     font: 2rem "Chomsky"
