@@ -76,3 +76,8 @@ li{
     transform: skew(-30deg);
     display: inline-block;
 }
+img{
+    border: 5px solid #1d2739;
+    max-height: 90vh;
+    max-width: 90%;
+}
