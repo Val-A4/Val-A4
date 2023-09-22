@@ -4,23 +4,26 @@
 }
 .container{
     display: grid;
-    grid-template-rows: 1fr 1fr;
-    width: 60vw;
-    margin: 20px;
+    grid-template-rows: auto;
+    width: 100%;
+    grid-gap: 40px;
+    align-items: center;
+    border: 5px solid #DAA520;
 }
 h1,hr,p{
     color: #DAA520;
     font: 2rem "Chomsky"
 }
 body{
-    border: 5px solid #DAA520;
+    /* border: 5px solid #DAA520; */
     background-color: black;
     text-align:center;
 }
 img{
     border: 5px solid #DAA520;
     /* width: 80%; */
-    height: 90vh;
+    max-height: 90vh;
+    max-width: 90%;
 }
 #seal{
     border: none;
