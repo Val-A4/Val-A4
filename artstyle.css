@@ -34,10 +34,12 @@ li{
     list-style-type: square;
 }
 a:link, a:visited{
+    font: 1.5em "Chomsky";
     color: #DAA520;
     background-color: black;
 }
 a:hover{
+    font: 1.5em "Chomsky";
     color: black;
     background-color: #DAA520;
 }
