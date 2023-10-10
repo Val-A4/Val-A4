@@ -25,6 +25,15 @@ img{
     max-height: 90vh;
     max-width: 90%;
 }
+#square{
+    border: 5px solid #DAA520;
+    max-width: 40vw;
+    max-height: 60vh;
+}
+#block{
+    border: 5px solid #DAA520;
+    max-height: 60vh;
+}
 #seal{
     border: none;
     width: 20vw;
