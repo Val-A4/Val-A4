@@ -39,6 +39,11 @@ img{
     width: 20vw;
     height:auto;
 }
+iframe{
+    border: 5px solid #DAA520;
+    width: 85vw;
+    height: 90vh;
+}
 li{
     list-style-type: square;
 }
