@@ -1,0 +1,82 @@
+@font-face {
+    font-family: "Chomsky";
+    src: url(Assets/Fonts/chomsky/Chomsky.otf);
+}
+/* .contained{
+    display: grid;
+    grid-template-columns: minmax(90vw, 600px);
+    align-self: center;
+} */
+.container{
+    display: grid;
+    grid-template-rows: auto;
+    width: min(calc((28.2843/28.1650)*90vh), 90vw);
+    align-content: center;
+    align-items: center;
+    justify-self: center;
+    padding: 0px;
+}
+.container-container{
+    /* Border Properties */
+    /* box-shadow: inset 0 0 0 5vw #DAA520; */
+    /* width: min(calc(100% - 14vw - 10px), 800px);
+    border: min(calc(7vw - 5px), 50px) solid #DAA520; */
+    width: calc(100% - 14vw - 5px);
+    min-width: calc(100% - ((4/28.1650)*90vh) - 10px);
+    border: min(calc(7vw - 5px), calc(2/28.1650*90vh)) solid #DAA520;
+    padding: 5px;
+    grid-gap: 40px;
+    justify-self: center;
+}
+h1,hr,p{
+    color: #DAA520;
+    font: 2rem "Chomsky"
+}
+body{
+    /* border: 5px solid #DAA520; */
+    background-color: black;
+    text-align:center;
+}
+/* Image Types: Hopefully Antiquated Soon */
+img{
+    border: 5px solid #DAA520;
+    max-height: 90vh;
+    max-width: calc(100% - 10px);
+}
+#square{
+    border: 5px solid #DAA520;
+    max-width: 40vw;
+    max-height: 60vh;
+}
+#Window-Top{
+    border: none;
+    /* width: 100%;
+    max-height: none; */
+    max-height: 90vh;
+}
+/* #Window-Top{
+    border: none;
+    width: 100%;
+    max-height: none;
+    max-height: 90vh;
+    width: auto;
+} */
+iframe{
+    border: 5px solid #DAA520;
+    width: calc(100% - 10px);
+    height: 90vh;
+}
+li{
+    list-style-type: square;
+}
+/* Links */
+a:link, a:visited{
+    font: 1.5em "Chomsky";
+    color: #DAA520;
+    background-color: black;
+}
+a:hover{
+    font: 1.5em "Chomsky";
+    color: black;
+    background-color: #DAA520;
+}
